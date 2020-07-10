@@ -1,11 +1,14 @@
 ### Hi there 👋
 
-I'm an Engineer who do System/DevOps/SRE at GHN Express (https://ghn.vn) 🚚
+I'm an Engineer who do System/DevOps/SRE at [GHN Express](https://ghn.vn) 🚚
 
 My github is quite a mess so don't waste time looking at it 😂
 
-Instead have a look at some of my writing on my travel trips at https://phuc.wtf 🍍
+Instead have a look at some of my writing on my travel trips at [phuc.wtf](https://phuc.wtf) 🍍
 
+This is me (don't laugh !)
+
+![cover](images/cover.jpg)
 <!--
 **jphuc96/jphuc96** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
