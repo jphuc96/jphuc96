@@ -8,7 +8,7 @@ Instead have a look at some of my writing on my travel trips at [phuc.wtf](https
 
 This is me (don't laugh !)
 
-![cover](images/cover.jpg)
+![cover](https://raw.githubusercontent.com/jphuc96/jphuc96/master/images/cover.jpg)
 <!--
 **jphuc96/jphuc96** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
