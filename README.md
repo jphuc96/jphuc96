@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm an Engineer who do System/DevOps/SRE at [GHN Express](https://ghn.vn) 🚚
+I'm an Engineer who do DevOps/SRE at [GHN Express](https://ghn.vn) 🚚
 
 My github is quite a mess so don't waste time looking at it 😂
 
