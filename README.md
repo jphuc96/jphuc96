@@ -15,17 +15,16 @@
 
 ```bash
 $ whoami
-cloud-architect --team=devops --tenants=2000+ --countries=12
+cloud-architect --mode=devops --coffee=required --sleep=optional
 
-$ cat current_role.txt
-Cloud Architect - DevOps Lead @ LittleLives (Singapore EdTech SaaS)
-- own 3 AWS accounts, 4 EKS clusters, 700TB+ S3, serving 2,000+ preschools
-- lead a lean 2-person team (yes, two. no, we don't sleep in shifts, we just don't sleep)
-- run the ISO 27001:2022 audit every year and somehow still have friends
+$ cat job_description.txt
+- draw boxes and arrows, call it "architecture"
+- make the pager stop, then make it stop for good this time
+- turn "it's slow" into a dashboard, then into a root cause, then into a PR
+- explain to leadership that "the cloud" is just someone else's computer
 
-$ echo $PREVIOUS_LIFE
-"co-architected hybrid cloud for Vietnam's largest e-logistics network
- (10+ GCP projects, 10+ GKE clusters, 8,000 cameras, 500K->2M orders/day)"
+$ echo $MOOD
+$([ $(date +%H) -ge 22 ] && echo "why is prod down" || echo "coffee.exe")
 ```
 
 ---
