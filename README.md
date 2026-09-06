@@ -1,13 +1,13 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&lines=Cloud+Architect+%2F+DevOps+Lead+%40+LittleLives;6%2B+years+turning+YAML+into+other+people's+problems;700TB+S3+%2B+4+EKS+clusters+%2B+one+pager;migrated+RabbitMQ+to+Kafka%3A+500K+%E2%86%92+2M+orders%2Fday;Google+Professional+Cloud+Architect+(it's+real%2C+I+swear)" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&lines=sudo+rm+-rf+%2Fmy-sleep-schedule;6%2B+years+turning+YAML+into+other+people's+problems;kubectl+get+pods+--watch+--forever;it's+not+a+bug%2C+it's+an+undocumented+feature;Google+Professional+Cloud+Architect+(it's+real%2C+I+swear)" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-production_is_fine._it's_fine.-success?style=for-the-badge" />
 </p>
 
-<h3 align="center">Nguyen Hoang Phuc — Cloud Architect / DevOps Lead</h3>
-<p align="center">Ho Chi Minh City, Vietnam · 6+ years shipping distributed systems on AWS & GCP so other people can sleep at night</p>
+<h3 align="center">Nguyen Hoang Phuc — Cloud Architect / DevOps</h3>
+<p align="center">Ho Chi Minh City, Vietnam · builds distributed systems so other people can sleep at night</p>
 
 ---
 
@@ -56,13 +56,11 @@ $([ $(date +%H) -ge 22 ] && echo "why is prod down" || echo "coffee.exe")
 
 | Metric | Value |
 |---|---|
-| Order throughput migration (RabbitMQ → Kafka) | 500K → 2M orders/day (4x, during peak sale, zero downtime) |
-| Media/storage cost cut (S3 Intelligent-Tier + FFmpeg re-encode + Cloudflare cache) | −60% |
-| Cameras watching me watch dashboards | 8,000+ across 1,000+ warehouses |
-| Tenants relying on my 3am decisions | 2,000+ preschools, 12 countries |
-| Team size owning all of production | 2 humans |
-| ISO 27001:2022 audits survived | annually, so far undefeated |
-| Times the real bottleneck was "just use Kafka" | more than I'd like to admit |
+| Uptime this week | 99.9% (the 0.1% was me) |
+| `terraform apply` confidence | 12% |
+| Times I said "should be quick" | ∞ |
+| Incidents fixed by "have you tried scaling it" | most of them |
+| Coffee : Deploys ratio | 1:1, non-negotiable |
 | Times DNS was the actual problem | it's always DNS |
 
 ---
