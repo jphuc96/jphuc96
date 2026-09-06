@@ -70,11 +70,11 @@ $([ $(date +%H) -ge 22 ] && echo "why is prod down" || echo "coffee.exe")
 ### 🔥 Some things I actually shipped
 
 ```diff
-+ architected multi-tenant enterprise SaaS: identity model, shift-left security, CI/CD scanning
-+ redesigned video transcoding pipeline: GPU -> tuned CPU/FFmpeg, -80% output size
-+ replaced legacy VPN with zero-trust (NetBird) across 3 AWS accounts + rolled out EDR (SentinelOne)
-+ co-architected hybrid cloud preserving sub-10ms latency between GCP and on-prem sorting warehouses
-+ built GHN Surveillance Center: 8,000-camera live streaming platform, Golang + FFmpeg + ReactJS on k8s
++ turned a legacy VPN into zero-trust, so nobody has to email IT for access anymore
++ cut a cloud bill down to size without cutting a single feature
++ moved a system off a queue that couldn't keep up, onto one that laughs at the load
++ replaced tribal knowledge with actual dashboards and actual runbooks
++ made "sub-10ms latency" a design constraint instead of an excuse
 - occasionally still get paged for "it's fine, just restart the pod"
 ```
 
