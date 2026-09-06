@@ -93,7 +93,7 @@ $ echo $PREVIOUS_LIFE
 ---
 
 <p align="center">
-  <a href="https://www.credly.com/users/jphuc96"><img src="https://img.shields.io/badge/Google_Professional_Cloud_Architect-certified-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /></a>
+  <a href="https://www.credly.com/badges/2e60c722-b415-4f00-a7e2-092885a12b7c/public_url"><img src="https://img.shields.io/badge/Google_Professional_Cloud_Architect-certified-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/ISO_27001%3A2022-compliant-blue?style=flat-square" />
   <a href="https://www.linkedin.com/in/jphuc96"><img src="https://img.shields.io/badge/LinkedIn-jphuc96-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:jphuc96@gmail.com"><img src="https://img.shields.io/badge/Email-jphuc96%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
