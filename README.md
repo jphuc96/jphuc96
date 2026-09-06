@@ -1,14 +1,13 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=00FF9C&center=true&vCenter=true&width=650&lines=sudo+rm+-rf+%2Fmy-sleep-schedule;kubectl+get+pods+--watch+--forever;It's+not+a+bug%2C+it's+an+undocumented+feature;99.9%25+uptime.+the+.1%25+is+me+asleep;Works+on+my+machine+%F0%9F%A4%B7" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&lines=Cloud+Architect+%2F+DevOps+Lead+%40+LittleLives;6%2B+years+turning+YAML+into+other+people's+problems;700TB+S3+%2B+4+EKS+clusters+%2B+one+pager;migrated+RabbitMQ+to+Kafka%3A+500K+%E2%86%92+2M+orders%2Fday;Google+Professional+Cloud+Architect+(it's+real%2C+I+swear)" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-production_is_fine._it's_fine.-success?style=for-the-badge" />
 </p>
 
-<h3 align="center">Hi, I'm Phuc 👋 — I turn coffee into infrastructure and pagers into anxiety</h3>
-
-<p align="center">DevOps / SRE / Cloud engineer. I don't fix bugs, I relocate them to staging.</p>
+<h3 align="center">Nguyen Hoang Phuc — Cloud Architect / DevOps Lead</h3>
+<p align="center">Ho Chi Minh City, Vietnam · 6+ years shipping distributed systems on AWS & GCP so other people can sleep at night</p>
 
 ---
 
@@ -16,34 +15,40 @@
 
 ```bash
 $ whoami
-sre-on-call --no-sleep --coffee=infinite
+cloud-architect --team=devops --tenants=2000+ --countries=12
 
-$ cat job_description.txt
-- keep the lights on
-- keep the lights blinking green, not red
-- pretend YAML indentation never ruined my weekend
-- explain to management that "the cloud" is just someone else's computer
+$ cat current_role.txt
+Cloud Architect - DevOps Lead @ LittleLives (Singapore EdTech SaaS)
+- own 3 AWS accounts, 4 EKS clusters, 700TB+ S3, serving 2,000+ preschools
+- lead a lean 2-person team (yes, two. no, we don't sleep in shifts, we just don't sleep)
+- run the ISO 27001:2022 audit every year and somehow still have friends
 
-$ echo $MOOD
-$([ $(date +%H) -ge 22 ] && echo "why is prod down" || echo "coffee.exe")
+$ echo $PREVIOUS_LIFE
+"co-architected hybrid cloud for Vietnam's largest e-logistics network
+ (10+ GCP projects, 10+ GKE clusters, 8,000 cameras, 500K->2M orders/day)"
 ```
 
 ---
 
-### 🧰 Stack I blame when things break
+### 🧰 Stack I'm on call for
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white" />
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
   <br/>
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
 
 ---
@@ -52,24 +57,26 @@ $([ $(date +%H) -ge 22 ] && echo "why is prod down" || echo "coffee.exe")
 
 | Metric | Value |
 |---|---|
-| Uptime this week | 99.9% (the 0.1% was me) |
-| `terraform apply` confidence | 12% |
-| Times I said "should be quick" | ∞ |
-| Incidents caused by a missing semicolon in YAML | most of them |
-| Coffee : Deploys ratio | 1:1, non-negotiable |
+| Order throughput migration (RabbitMQ → Kafka) | 500K → 2M orders/day (4x, during peak sale, zero downtime) |
+| Media/storage cost cut (S3 Intelligent-Tier + FFmpeg re-encode + Cloudflare cache) | −60% |
+| Cameras watching me watch dashboards | 8,000+ across 1,000+ warehouses |
+| Tenants relying on my 3am decisions | 2,000+ preschools, 12 countries |
+| Team size owning all of production | 2 humans |
+| ISO 27001:2022 audits survived | annually, so far undefeated |
+| Times the real bottleneck was "just use Kafka" | more than I'd like to admit |
 | Times DNS was the actual problem | it's always DNS |
 
 ---
 
-### 🔥 Recent activity (probably)
+### 🔥 Some things I actually shipped
 
 ```diff
-+ shipped a fix
-- broke something else
-+ wrote a runbook nobody will read
-+ added another dashboard nobody will look at until 3am
-- deleted a "temporary" resource from 2022
-+ it's fine now. probably.
++ architected multi-tenant enterprise SaaS: identity model, shift-left security, CI/CD scanning
++ redesigned video transcoding pipeline: GPU -> tuned CPU/FFmpeg, -80% output size
++ replaced legacy VPN with zero-trust (NetBird) across 3 AWS accounts + rolled out EDR (SentinelOne)
++ co-architected hybrid cloud preserving sub-10ms latency between GCP and on-prem sorting warehouses
++ built GHN Surveillance Center: 8,000-camera live streaming platform, Golang + FFmpeg + ReactJS on k8s
+- occasionally still get paged for "it's fine, just restart the pod"
 ```
 
 ---
@@ -86,9 +93,10 @@ $([ $(date +%H) -ge 22 ] && echo "why is prod down" || echo "coffee.exe")
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/on--call-currently_praying-critical?style=flat-square" />
-  <img src="https://img.shields.io/badge/kubectl_get_pods-CrashLoopBackOff-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/last_incident-🔥-orange?style=flat-square" />
+  <a href="https://www.credly.com/users/jphuc96"><img src="https://img.shields.io/badge/Google_Professional_Cloud_Architect-certified-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/ISO_27001%3A2022-compliant-blue?style=flat-square" />
+  <a href="https://www.linkedin.com/in/jphuc96"><img src="https://img.shields.io/badge/LinkedIn-jphuc96-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:jphuc96@gmail.com"><img src="https://img.shields.io/badge/Email-jphuc96%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center"><i>"Hope is not a strategy, but it's on the runbook right after step 3."</i></p>
